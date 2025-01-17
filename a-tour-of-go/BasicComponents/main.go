@@ -2,9 +2,12 @@ package main
 
 import (
 	"fmt"
+	"go-practice/constants"
 	"go-practice/functions"
 	"go-practice/math"
 	"go-practice/prints"
+	"go-practice/types"
+	"go-practice/variables"
 )
 
 func main() {
@@ -20,4 +23,16 @@ func main() {
 	school, department := functions.Swap("The University of Tokyo", "PSI")
 	fmt.Println(school, department)
 	fmt.Println(functions.NakedReturn(17))
+
+	variables.Bool()
+	variables.InitVariables()
+	variables.ShortInitVariables()
+
+	types.BasicTypes()
+	variables.ZeroValues()
+	types.TypeConversion()
+	types.TypeInference()
+
+	constants.Constants()
+	constants.NumValues()
 }
