@@ -1,4 +1,4 @@
-package control
+package controlwhile
 
 func forever() {
 	for {
